@@ -92,7 +92,9 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="overlay3.0.icon.png" />
 <link rel="apple-touch-icon" href="overlay3.0.apple-touch-icon.png"/>
+<link rel="manifest" href="overlay3.0.manifest.json">
 <script src="docs/coi-serviceworker.js"></script>
+<style>body: {background-color: transparent}</style>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +113,7 @@ body {
 
 		<script src="overlay3.0.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"overlay3.0","experimentalVK":false,"fileSizes":{"overlay3.0.pck":21564,"overlay3.0.wasm":36145869},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"overlay3.0","experimentalVK":false,"fileSizes":{"overlay3.0.pck":21644,"overlay3.0.wasm":36145869},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"overlay3.0.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
