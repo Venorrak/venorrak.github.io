@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1767674063|6998971661';
+const CACHE_VERSION = '1767926756|24005855424';
 /** @type {string} */
 const CACHE_PREFIX = 'overlay3.0-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
